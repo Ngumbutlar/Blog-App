@@ -7,11 +7,11 @@ import {AiOutlineClose} from "react-icons/ai";
 const Header = () => {
   return (
     <nav>
-      <div className="container nav__container">
+      <div className="container nav-container">
         <Link to="/" className='nav-logo' >
         <img src={Logo} alt="Navbar Logo" />
         </Link>
-        <ul className='nav-meny'>
+        <ul className='nav-menu'>
           <li><Link to="/profile">Butlee</Link></li>
           <li><Link to="/create">Create Post</Link></li>
           <li><Link to="/authors">Authors</Link></li>
