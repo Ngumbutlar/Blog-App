@@ -26,15 +26,15 @@ const router = createBrowserRouter([
     //Children Prop
     children:[
       {index: true, element: <Home/>},
-      {path: "post: id", element: <PostDetail/>},
+      {path: "post:id", element: <PostDetail/>},
       {path: "register", element: <Register/>},
       {path: "login", element: <Login/>},
-      {path: "profile/: id", element: <UserProfile/>},
+      {path: "profile/:id", element: <UserProfile/>},
       {path: "authors", element: <Authors/>},
       {path: "create", element: <CreatePost/>},
-      {path: "posts/categories/: category", element: <CategoryPost/>},
-      {path: "posts/users/: id", element: <AuthorPost/>},
-      {path: "myposts/: id", element: <Dashboard/>},
+      {path: "posts/categories/:category", element: <CategoryPost/>},
+      {path: "posts/users/:id", element: <AuthorPost/>},
+      {path: "myposts/:id", element: <Dashboard/>},
       {path: "posts/:id/edit", element: <EditPost/>},
       {path: "logout", element: <Logout/>},
       
